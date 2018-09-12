@@ -1,0 +1,12 @@
+﻿html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.bordered {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
