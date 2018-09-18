@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace DarkWoods
+namespace DarkWoods.Data
 {
     /// <summary>
     /// A transition from one page to another.

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace DarkWoods
+namespace DarkWoods.Data
 {
     /// <summary>
     /// The state of the current game.

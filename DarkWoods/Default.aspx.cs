@@ -26,15 +26,15 @@ namespace DarkWoods
         /// Get the current game state from the session.
         /// </summary>
         /// <returns></returns>
-        private GameState GetGameState()
+        private Data.GameState GetGameState()
         {
             if (Session[KEY_GAME_STATE] == null)
             {
-                return new GameState();
+                return new Data.GameState();
             }
             else
             {
-                return Session[KEY_GAME_STATE] as GameState;
+                return Session[KEY_GAME_STATE] as Data.GameState;
             }
         }
 
@@ -42,7 +42,7 @@ namespace DarkWoods
         /// Save the current game state to the session.
         /// </summary>
         /// <param name="value"></param>
-        private void SaveGameState(GameState value)
+        private void SaveGameState(Data.GameState value)
         {
             Session[KEY_GAME_STATE] = value;
         }
